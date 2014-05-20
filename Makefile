@@ -47,9 +47,9 @@ SOURCES       = src/view.cpp \
 		src/monster.cpp \
 		src/gamescene.cpp \
 		main.cpp 
-OBJECTS       = view.o \
-		monster.o \
-		gamescene.o \
+OBJECTS       = src/view.o \
+		src/monster.o \
+		src/gamescene.o \
 		main.o
 DIST          = /usr/share/qt4/mkspecs/common/unix.conf \
 		/usr/share/qt4/mkspecs/common/linux.conf \
