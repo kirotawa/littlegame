@@ -29,7 +29,7 @@ void Monster::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, Q
 
 void Monster::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
-
+    cout << "Clicked\n" << flush;
 }
 
 void Monster::keyPressEvent(QKeyEvent *event)
@@ -41,7 +41,7 @@ void Monster::keyPressEvent(QKeyEvent *event)
     if (event->key() == Qt::Key_Up)
         cout << "Up\n" << flush;
     if (event->key() == Qt::Key_Down)
-        cout << "Down\n" << flush;
+        cout << "Down!!!!\n" << flush;
 }
 
 void Monster::_keyPressEvent(QKeyEvent *event)
